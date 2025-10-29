@@ -83,19 +83,19 @@ Docker Scout provides detailed vulnerability reports and patch recommendations.
 
 ## Common Docker Commands :
 
-# Build and start containers
+## Build and start containers
 ``` bash
 docker-compose up --build -d
 ```
-# Stop and remove containers
+## Stop and remove containers
 ``` bash
 docker-compose down
 ```
-# View logs
+## View logs
 ``` bash
 docker-compose logs -f
 ```
-# Scan for vulnerabilities
+## Scan for vulnerabilities
 ``` bash
 docker scout cves <image-name>
 ```
