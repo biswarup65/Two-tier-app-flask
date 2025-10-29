@@ -23,6 +23,45 @@ By completing this project, you’ll gain **hands-on experience** with:
 | **Two-Tier Application Source Code** | A simple web app with a database backend (e.g., Flask + MySQL) |
 
 ---
+## 🎯 Project Objectives
+
+- Containerize both tiers of the application (frontend & database).  
+- Use Docker Compose to run both containers together as one stack.  
+- Ensure proper network communication between containers.  
+- Use Docker Scout to identify and mitigate image vulnerabilities.  
+
+---
+
+## 🚀 Getting Started
+
+## 1️⃣ Clone the Repository
+``` bash
+git clone https://github.com/<your-username>/two-tier-docker-app.git
+cd two-tier-docker-app/
+
+```
+## 2️⃣ Build Docker Image
+``` bash
+docker build -t two-tier-flask-app:latest .
+```
+## 3️⃣ Run Application with Docker Compose
+``` bash
+docker-compose up -d
+```
+## Run Container locally
+```bash
+docker run -d --name two-tier-flask-app -p 5000:5000 two-tier-flask-app:latest
+```
+## 4️⃣ Access the Application
+Open your browser and visit:
+```yml
+http://<your-server-ip>:5000
+```
+## 5️⃣ Verify Running Containers
+```bash
+docker ps
+```
+---
 
 
 
