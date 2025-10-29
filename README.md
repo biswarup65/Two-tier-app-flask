@@ -63,5 +63,41 @@ docker ps
 ```
 ---
 
+## 🧪 Scanning Images with Docker Scout
+
+## 1️⃣ Install Docker Scout (if not already available):
+``` bash
+docker scout version
+
+```
+## 2️⃣ Scan Images for Vulnerabilities:
+``` bash
+docker scout cves two-tier-flask-app:latest
+```
+## 3️⃣ View Recommendations and Fixes:
+``` bash
+Docker Scout provides detailed vulnerability reports and patch recommendations.
+```
+
+---
+
+## Common Docker Commands :
+
+# Build and start containers
+``` bash
+docker-compose up --build -d
+```
+# Stop and remove containers
+``` bash
+docker-compose down
+```
+# View logs
+``` bash
+docker-compose logs -f
+```
+# Scan for vulnerabilities
+``` bash
+docker scout cves <image-name>
+```
 
 
