@@ -36,8 +36,8 @@ By completing this project, you’ll gain **hands-on experience** with:
 
 ## 1️⃣ Clone the Repository
 ``` bash
-git clone https://github.com/<your-username>/two-tier-docker-app.git
-cd two-tier-docker-app/
+git clone https://github.com/biswarup65/Two-tier-app-flask.git
+cd Two-tier-app-flask/
 
 ```
 ## 2️⃣ Build Docker Image
